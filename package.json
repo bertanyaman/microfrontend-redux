@@ -1,0 +1,38 @@
+{
+    "name": "YourApp",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@reduxjs/toolkit": "^2.1.0",
+        "babel-preset-env": "~1.7.0",
+        "babel-preset-react": "~6.24.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "8.1.1",
+        "redux": "4.1.2"
+    },
+    "devDependencies": {
+        "@types/react": "18.2.48",
+        "@types/react-dom": "18.2.18",
+        "@types/react-redux": "7.1.25",
+        "html-webpack-plugin": "5.6.0",
+        "ts-loader": "9.4.2",
+        "typescript": "4.9.4",
+        "webpack": "5.75.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.0"
+    },
+    "packageManager": "yarn@3.3.1"
+}
