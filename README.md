@@ -14,6 +14,7 @@ Navigate to the `your-app` directory and run the following:
 
 ```
 $ npm run install
+
 $ npm run start
 ```
 
@@ -25,5 +26,6 @@ You can similarly navigate to the `your-app2` directory and run the following co
 
 ```
 $ npm run install
+
 $ npm run start
 ```
